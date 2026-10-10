@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from .parameters import CROPS, SOILS
+from parameters import CROPS, SOILS
 
 def temp_factor(t, p):
     if t <= p['base_temp'] or t >= p['max_temp']: return 0.0
