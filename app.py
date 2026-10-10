@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd, numpy as np
 import plotly.express as px
-from sas.model import simulate
-from sas.parameters import CROPS, SOILS
-from sas.weather import validate_weather
+from model import simulate
+from parameters import CROPS, SOILS
+from weather import validate_weather
 
 st.set_page_config(page_title='SAS — Simulador Agronómico Sombrerete', layout='wide')
 st.title('SAS — Simulador Agronómico Sombrerete')
